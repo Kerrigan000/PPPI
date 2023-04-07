@@ -34,16 +34,6 @@ namespace PPPI
         /// </summary>
         public Bitmap skin;
 
-        /// <summary>
-        /// Метод Draw отвечает за отрисовку блока.
-        /// </summary>
-        /// <param name="pictureBox">Принимаемый объект класса PictureBox, в котором будет отрисовываться блок,
-        /// в соответствии с внешним видом хранящимся в переменных skin, color и shape и координатами
-        /// на игровом поле хранящимися в переменных x и y.</param>
-        public void Draw(PictureBox pictureBox)
-        {
-
-        }
 
         /// <summary>
         /// Метод SetSkin отвечает за установку внешнего вида блока.
