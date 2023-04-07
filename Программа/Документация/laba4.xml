@@ -1,0 +1,45 @@
+<class>
+  <name>DB</name>
+  <brief>Класс для работы с базой данных</brief>
+  <author>Василенко Даниил Евгеньевич</author>
+  <member>
+    <name>password</name>
+    <type>string</type>
+  </member>
+  <member>
+    <name>login</name>
+    <type>string</type>
+  </member>
+  <member>
+    <name>ip</name>
+    <type>string</type>
+  </member>
+  <member>
+    <name>port</name>
+    <type>string</type>
+  </member>
+  <constructor>
+    <brief>Constructor</brief>
+  </constructor>
+  <destructor>
+    <brief>Destructor</brief>
+  </destructor>
+  <function>
+    <name>addNote</name>
+    <brief>Добавляет заметку в базу данных</brief>
+    <param>
+      <name>note</name>
+      <type>Note&amp;</type>
+      <brief>Заметка, которая будет включена в базу данных</brief>
+    </param>
+    <author>Василенко Даниил Евгеньевич</author>
+  </function>
+  <function>
+    <name>deleteNote</name>
+    <brief>Удаление заметки</brief>
+  </function>
+  <function>
+    <name>modifyNote</name>
+    <brief>Изменение заметки</brief>
+  </function>
+</class>
