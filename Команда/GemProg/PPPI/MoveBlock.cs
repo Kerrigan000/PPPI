@@ -20,11 +20,5 @@ namespace PPPI
         {
             return block;
         }
-
-        //Движение блока вниз.
-        public Block moveDown(Block block)
-        {
-            return block;
-        }
     }
 }
