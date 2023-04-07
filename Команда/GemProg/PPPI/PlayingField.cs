@@ -26,6 +26,15 @@ namespace PPPI
         /// </summary>
         public Bitmap skin;
 
+        /// <summary>
+        /// Метод Draw отвечает за отрисовку игрового поля.
+        /// </summary>
+        /// <param name="pictureBox">Принимаемый объект класса PictureBox, в котором будет отрисовываться игровое поле,
+        /// в соответствии с внешним видом хранящимся в переменной skin.</param>
+        public void Draw(PictureBox pictureBox)
+        {
+
+        }
 
         /// <summary>
         /// Метод SetSkin отвечает за установку внешнего вида игрового поля.

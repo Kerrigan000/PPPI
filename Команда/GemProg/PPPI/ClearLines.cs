@@ -20,11 +20,5 @@ namespace PPPI
         {
 
         }
-
-        //Восстанавливает строку.
-        public void restoreLine(int lineNumb)
-        {
-
-        }
     }
 }
