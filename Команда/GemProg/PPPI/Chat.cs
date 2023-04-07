@@ -11,17 +11,5 @@ namespace PPPI
     internal class Chat
     {
         public string ip;   //ip текущего сопартийца.
-
-        //Обновить чат.
-        public void refresh()
-        {
-
-        }
-
-        //Отправить письмо в чат.
-        public void sendMessage(string message)
-        {
-
-        }
     }
 }
